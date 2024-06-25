@@ -83,7 +83,7 @@ checkDivisibility(19)
 
 //2.Switch Statements//
 
-function checkTemperatureSwitch(number) {
+function checkDivisibilitySwitch(number) {
     switch (true) {
         case (number % 2 === 0 && number % 3 === 0):
             console.log("Divisible by both");
@@ -98,6 +98,12 @@ function checkTemperatureSwitch(number) {
             console.log("Not divisible by both");
     }
 }
+
+//Test
+checkDivisibility(30)
+checkDivisibility(4)
+checkDivisibility(21)
+checkDivisibility(19)
 
 
 
